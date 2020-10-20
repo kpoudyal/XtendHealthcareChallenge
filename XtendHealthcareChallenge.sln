@@ -4,8 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XtendHealthChallenge", "XtendHealthChallenge.csproj", "{95DEC49A-ABAA-4355-9C33-C775AA17F06E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E0D7C51-6314-461E-9DAF-625AE75BEBCE} = {1E0D7C51-6314-461E-9DAF-625AE75BEBCE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XtendHealthChallengeUnitTest", "..\XtendHealthChallengeUnitTest\XtendHealthChallengeUnitTest.csproj", "{A4E9B01F-CDE1-4F50-806A-D8D3B7E102EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E0D7C51-6314-461E-9DAF-625AE75BEBCE} = {1E0D7C51-6314-461E-9DAF-625AE75BEBCE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XtendHealthWebApi_Project", "..\XtendHealthWebApi_Project\XtendHealthWebApi_Project.csproj", "{1E0D7C51-6314-461E-9DAF-625AE75BEBCE}"
 EndProject
